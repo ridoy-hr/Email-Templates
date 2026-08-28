@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.rsw-editor {
+  overflow: visible !important;
+}
+.rsw-toolbar {
+  z-index: 50 !important;
+}
+
+
+.rsw-ce a {
+  color: #2563eb !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}

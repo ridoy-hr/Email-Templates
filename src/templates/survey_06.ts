@@ -1,0 +1,483 @@
+export const survey_06 = `<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HR Research Survey Emailer 06</title>
+    <style>
+      body,
+      table,
+      td,
+      a {
+        font-family: 'Roboto', Arial, sans-serif !important;
+        color: #2c353f !important;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        background: #f1f1f1;
+      }
+
+      .container {
+        margin: 0 auto !important;
+        background: #ffffff !important;
+      }
+
+      /* HERO */
+      .hero-panel {
+        background: #f7f7f7;
+        border-radius: 16px;
+        border-collapse: separate;
+      }
+      .hero-heading {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.28;
+        margin: 0;
+        text-align: center;
+      }
+
+      /* Orange Talent Acquisition bar (centered, attached to top) */
+      .ta-badge {
+        background: #e35c27;
+        color: #ffffff !important;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 4px 16px;
+        display: inline-block;
+        letter-spacing: 0.3px;
+      }
+
+      /* Non-Outlook gradient button */
+      .btn-gradient {
+        background: #e35c27; /* fallback color */
+        background-image: linear-gradient(
+          90deg,
+          #00a0df 0%,
+          #232288 27.8%,
+          #e3007e 52.35%,
+          #e51f1f 79.42%,
+          #feed00 100%
+        );
+        color: #ffffff !important;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+        border-radius: 10px;
+        text-decoration: none !important;
+        display: inline-block;
+        padding: 12px 20px;
+      }
+
+      .body-container {
+        padding: 24px 40px 20px 40px;
+        font-size: 14px;
+        line-height: 1.8;
+        color: #2c353f;
+      }
+      .signature {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+      .logo-section {
+        padding: 0 0 30px 0;
+        text-align: center;
+      }
+      .footer-container {
+        padding: 0 40px 40px 40px;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #2c353f;
+        text-align: center;
+      }
+      .footer-container a {
+        color: #232288 !important;
+        text-decoration: underline;
+      }
+
+      /* Bottom rainbow bar with solid fallback */
+      .rainbow {
+        height: 4px;
+        line-height: 4px;
+        background: #e3007e; /* solid fallback */
+        background-image: linear-gradient(
+          90deg,
+          #00a0df 0%,
+          #232288 27.8%,
+          #e3007e 52.35%,
+          #e51f1f 79.42%,
+          #feed00 100%
+        );
+      }
+
+      @media only screen and (max-width: 620px) {
+        .container {
+          width: 100% !important;
+        }
+        .column {
+          width: 100% !important;
+          display: block !important;
+          text-align: center !important;
+          padding: 0 !important;
+        }
+        .hide-mobile {
+          display: none !important;
+          max-height: 0 !important;
+          overflow: hidden !important;
+          mso-hide: all !important;
+        }
+        .body-container {
+          padding: 20px !important;
+          font-size: 14px !important;
+        }
+        .footer-container {
+          padding: 0 20px 30px 20px !important;
+          font-size: 12px !important;
+        }
+        .hero-heading {
+          font-size: 28px !important;
+          line-height: 1.28 !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {
+          background: #f1f1f1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Preheader (hidden) -->
+    <div
+      style="
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        font-size: 1px;
+        line-height: 1px;
+        color: #f4f4f4;
+        max-width: 0;
+        opacity: 0;
+      "
+    >
+      Take 7 minutes to help shape the future of recruitment technologies — your
+      insights matter!
+    </div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="600" align="center" style="border-spacing:0;color:#2C353F;background:#ffffff;" role="presentation"><tr><td style="padding:0;">
+    <![endif]-->
+
+    <table
+      align="center"
+      class="container"
+      role="presentation"
+      width="100%"
+      style="
+        border-spacing: 0;
+        color: #2c353f;
+        font-family: 'Roboto', Arial, sans-serif !important;
+        background: #ffffff;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 600px;
+      "
+    >
+      <!-- HERO PANEL (light background, rounded) -->
+      <tr>
+        <td style="padding: 16px 20px 0 20px">
+          <table
+            role="presentation"
+            width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            class="hero-panel"
+            style="border-spacing: 0; background: #f7f7f7; border-radius: 16px"
+          >
+            <!-- Orange bar row: centered & attached to top -->
+            <tr>
+              <td
+                align="center"
+                style="
+                  padding: 0;
+                  border-top-left-radius: 16px;
+                  border-top-right-radius: 16px;
+                "
+              >
+                <table
+                  role="presentation"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  style="border-spacing: 0"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        padding: 0;
+                        height: 0;
+                        line-height: 0;
+                        font-size: 0;
+                      "
+                    >
+                      &nbsp;
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding: 0; margin: 0">
+                      <span class="ta-badge">Talent Acquisition</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Spacing under badge -->
+            <tr>
+              <td height="14" style="font-size: 0; line-height: 0">&nbsp;</td>
+            </tr>
+
+            <!-- Centered headline -->
+            <tr>
+              <td style="padding: 0 20px">
+                <h1
+                  class="hero-heading"
+                  style="
+                    margin: 0;
+                    font-family: 'Roboto', Arial, sans-serif;
+                    color: #2c353f;
+                    text-align: center;
+                  "
+                >
+                  How do your recruitment technologies enhance talent
+                  acquisition?
+                </h1>
+              </td>
+            </tr>
+
+            <!-- Spacer -->
+            <tr>
+              <td height="18" style="font-size: 0; line-height: 0">&nbsp;</td>
+            </tr>
+
+            <!-- CTA centered (gradient w/ orange fallback + Outlook VML) -->
+            <tr>
+              <td align="center" style="padding: 0 0 20px 0">
+                 <!-- Button : START -->
+          <table
+            role="presentation"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            align="center"
+            style="margin: 0 auto"
+          >
+       <!-- CTA centered (simple, inline, no shadow) -->
+      <tr>
+        <td align="center" style="padding: 0px 20px 0px 20px">
+          <a
+            href="https://web.hr.com/coaxx"
+            target="_blank"
+            rel="noopener"
+            style="
+              display: inline-block;
+              background: #d6346c;
+              border: 1px solid #d6dde7;
+              border-radius: 16px;
+              color: #ffffff !important;
+              font: 700 14px/44px Arial, Helvetica, sans-serif;
+              letter-spacing: 0.2px;
+              text-decoration: none !important;
+              padding: 0 22px;
+              -webkit-text-size-adjust: none;
+            "
+          >
+            Take the Survey
+          </a>
+        </td>
+      </tr>
+          </table>
+          <!-- Button : END -->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+        <td
+          class="body-container"
+          style="
+            padding: 24px 40px 20px 40px;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #2c353f;
+          "
+        >
+          <p style="margin: 0 0 24px 0">
+            As we move through 2025, the team at HR.com is gathering valuable
+            data on today’s Recruitment technologies to help HR professionals
+            gain a better understanding of the tools, platforms, and innovations
+            shaping the way organizations attract and hire top talent.
+          </p>
+
+          <p
+            style="
+              margin: 0 0 24px 0;
+              background: #e6f0fa;
+              border-radius: 8px;
+              padding: 15px 20px;
+              font-weight: 600;
+            "
+          >
+            <strong
+              >The survey takes only 7 minutes to complete. Key findings will be
+              shared in an HR.com webcast,</strong
+            >
+            and you’ll receive early access to the full research report: Future
+            of Recruitment Technologies 2025.
+          </p>
+
+          <p style="margin: 0 0 24px 0">
+            These findings will reveal how your strategies and tools compare to
+            other organizations, helping you stay competitive.
+          </p>
+
+          <p style="margin: 0 0 24px 0">
+            We appreciate your support and look forward to your insights.
+          </p>
+
+          <p class="signature" style="margin: 0; font-size: 12px">
+            <span style="font-size: 14px"><strong>Sue Kelley</strong></span
+            ><br />
+            Product Manager, HR Research Institute<br />
+            research@hr.com<br />
+            Maximizing Human Potential
+          </p>
+        </td>
+      </tr>
+<tr>
+<td style="padding:0 40px 10px;">
+<p style="
+margin:0;
+font-size:12px;
+background:#f8f8ff;
+padding:12px 16px;
+border-left:3px solid #232288;
+border-radius:4px;
+line-height:1.5;
+">
+<strong style="font-size:12px;">P.S.</strong>
+If you missed our last research release, you may enjoy the insights from
+<a href="#" target="_blank" style="color:#232288;text-decoration:underline;">the previous report</a>.
+It’s a quick read with helpful benchmarks.
+</p>
+</td>
+</tr>
+      <!-- Bottom rainbow bar -->
+      <tr>
+        <td style="padding: 0 20px">
+          <!--[if gte mso 9]>
+            <v:rect
+              xmlns:v="urn:schemas-microsoft-com:vml"
+              fill="true"
+              stroke="false"
+              style="width: 560px; height: 4px"
+            >
+              <v:fill
+                type="gradient"
+                angle="90"
+                color="#00a0df"
+                color2="#feed00"
+                colors="0% #00a0df; 28% #232288; 52% #e3007e; 79% #e51f1f; 100% #feed00"
+              />
+              <v:textbox inset="0,0,0,0">
+                <table
+                  width="560"
+                  height="4"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  role="presentation"
+                  bgcolor="#e3007e"
+                >
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table>
+              </v:textbox>
+            </v:rect>
+          <![endif]-->
+          <!--[if !mso]><!-- -->
+          <div class="rainbow" style="width: 100%"></div>
+          <!--<![endif]-->
+        </td>
+      </tr>
+
+      <!-- Logos -->
+      <tr>
+        <td
+          class="logo-section"
+          style="padding: 0 0 30px 0; text-align: center"
+        >
+          <img
+            src="https://public-cdn.hr.com/remoteimages/website-images/emailer-images/hrdotcom-and-hrresearch-logo.jpg"
+            alt="HR.com & HR Research Institute Logos"
+            width="300"
+            height="138"
+            style="max-width: 100%; height: auto; display: inline-block"
+          />
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td
+          class="footer-container"
+          style="
+            padding: 0 40px 40px 40px;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #575656 !important;
+            text-align: center;
+          "
+        >
+          <p style="margin: 0 0 8px 0">
+            HR.com Limited - 56 Malone Road, Jackson's Point, ON, Canada, L0E
+            1L0<br />
+            <a
+              href="https://www.hr.com/en/about_us/privacy_information/"
+              target="_blank"
+              >Privacy Policy</a
+            >
+            |
+            <a href="mailto:education@hr.com" target="_blank">Contact Us</a>
+          </p>
+          <p style="margin: 0">
+            To receive our Talent Acquisition Excellence newsletter,
+            <a href="#" target="_blank">subscribe here</a>.<br />
+            To unsubscribe or update your preferences,
+            <a href="#" target="_blank">click here</a>.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+  </body>
+</html>`;
